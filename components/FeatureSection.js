@@ -22,13 +22,13 @@ const FeatureSection = () => {
 
   return (
     <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mb-8 font-sans">
-      <h2 className="text-center font-bold text-3xl py-8">How it Works</h2>
+      <h2 className="text-center font-bold text-3xl py-8">Features</h2>
 
       <div className="flex flex-col md:flex-row gap-8">
         {features.map((feature, index) => (
           <section key={index}>
             <div
-              className="flex flex-col items-center justify-center text-center rounded-3xl shadow-md" style={{ background: "#0e0918", width: "380px", height: "380px" }}
+              className="flex flex-col w-full md:w-4/5 items-center justify-center text-center rounded-3xl shadow-md" style={{ background: "#0e0918", height: "380px" }}
             >
               <Image width={150} height={150} src={feature.icon} />
             </div>

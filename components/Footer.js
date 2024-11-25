@@ -54,7 +54,7 @@ export default function Footer() {
             <div className="py-2 mx-auto" style={{ width: "80%" }}>
                 <hr className="border-t border-gray-400" />
             </div>
-            <div className="mx-auto pb-4 flex yjustify-between text-black" style={{ width: "80%" }}>
+            <div className="text-sm md:text-lg mx-auto pb-4 flex justify-between text-black w-5/6 md:w-4/5">
                 <p>Copyright @ 2024 CloseSwap </p>
                 <p>Privacy policy</p>
             </div>
