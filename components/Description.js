@@ -21,9 +21,9 @@ const Description = () => {
                 <h2 className="text-center font-bold text-3xl py-2">How it Works</h2>
             </div>
             <div className="container mx-auto">
-                <section className="mx-auto my-12 flex items-center font-sans justify-center px-0 md:px-8 py-16 rounded-3xl w-5/6 md:w-4/5" style={{ background: 'linear-gradient(76.57deg, #0E0918 34.14%, #4A2F7E 94.67%)', }}>
+                <section className="mx-auto my-12 flex items-center font-sans justify-center px-0 md:px-8 py-8 md:py-16 rounded-3xl w-5/6 md:w-4/5" style={{ background: 'linear-gradient(76.57deg, #0E0918 34.14%, #4A2F7E 94.67%)', }}>
                     {/* Left Section */}
-                    <div className="w-full md:w-1/2 text-white  md:space-y-0 md:space-y-6 mx-4 md:mx-12">
+                    <div className="w-full md:w-1/2 text-white  md:space-y-0 md:space-y-6 mx-4 md:mx-12 hidden md:block">
                         <h2 className="font-bold text-2xl md:text-3xl py-6 md:py-12">Find a Nearby Merchant</h2>
                         <p className="text-2xl leading-snug font-light">
                             Use our app to locate verified merchants in your area, each with
@@ -32,19 +32,22 @@ const Description = () => {
                     </div>
 
                     {/* Right Section */}
-                    <div className="hidden md:block">
-                        <Image
-                            src="/image1.png"
-                            alt="Hero Image"
-                            width={350}
-                            height={300}
-                            className="rounded-lg"
-                        />
+                    <div className="block">
+                        <h2 className="font-bold text-center text-white text-2xl md:text-3xl py-6 md:py-12 block md:hidden">Find a Nearby Merchant</h2>
+                        <div className="relative w-ful max-w-[150px] md:max-w-[350px] mx-auto">
+                            <Image
+                                src="/image1.png"
+                                alt="Hero Image"
+                                width={350}
+                                height={300}
+                                className="rounded-lg"
+                            />
+                        </div>
                     </div>
                 </section>
-                <section className="mx-auto my-12 flex items-center font-sans justify-center px-0 md:px-8 py-16 rounded-3xl w-5/6 md:w-4/5" style={{ background: 'linear-gradient(76.57deg, #0E0918 34.14%, #4A2F7E 94.67%)', }}>
+                <section className="mx-auto my-12 flex items-center font-sans justify-center px-0 md:px-8 py-8 md:py-16 rounded-3xl w-5/6 md:w-4/5" style={{ background: 'linear-gradient(76.57deg, #0E0918 34.14%, #4A2F7E 94.67%)', }}>
                     {/* Left Section */}
-                    <div className="w-full md:w-1/2 text-white  md:space-y-0 md:space-y-6 mx-4 md:mx-12">
+                    <div className="hidden md:block w-full md:w-1/2 text-white  md:space-y-0 md:space-y-6 mx-4 md:mx-12">
                         <h2 className="font-bold text-2xl md:text-3xl py-6 md:py-12">Set Your Trade Terms</h2>
                         <p className="text-2xl leading-snug font-light">
                             Connect with the merchant, negotiate your terms, and make an agreement that works best for you both.                       </p>
@@ -52,19 +55,22 @@ const Description = () => {
                     </div>
 
                     {/* Right Section */}
-                    <div className="hidden md:block">
-                        <Image
-                            src="/image2.png"
-                            alt="Hero Image"
-                            width={350}
-                            height={300}
-                            className="rounded-lg"
-                        />
+                    <div className="block">
+                        <h2 className="font-bold text-2xl text-center text-white md:text-3xl py-6 md:py-12 block md:hidden">Set Your Trade Terms</h2>
+                        <div className="relative w-ful max-w-[150px] md:max-w-[350px] mx-auto">
+                            <Image
+                                src="/image2.png"
+                                alt="Hero Image"
+                                width={350}
+                                height={300}
+                                className="rounded-lg"
+                            />
+                        </div>
                     </div>
                 </section>
-                <section className="mx-auto my-12 flex items-center font-sans justify-center px-0 md:px-8 py-16 rounded-3xl w-5/6 md:w-4/5" style={{ background: 'linear-gradient(76.57deg, #0E0918 34.14%, #4A2F7E 94.67%)', }}>
+                <section className="mx-auto my-12 flex items-center font-sans justify-center px-0 md:px-8 py-8 md:py-16 rounded-3xl w-5/6 md:w-4/5" style={{ background: 'linear-gradient(76.57deg, #0E0918 34.14%, #4A2F7E 94.67%)', }}>
                     {/* Left Section */}
-                    <div className="w-full md:w-1/2 text-white  md:space-y-0 md:space-y-6 mx-4 md:mx-12">
+                    <div className="hidden md:block w-full md:w-1/2 text-white  md:space-y-0 md:space-y-6 mx-4 md:mx-12">
                         <h2 className="font-bold text-2xl md:text-3xl py-6 md:py-12">Complete the Exchange</h2>
                         <p className="text-2xl leading-snug font-light">
                             Meet with the merchant to finalize the trade in person. Our merchants have the flexibility to offer free or discounted services based on your agreement.
@@ -73,14 +79,17 @@ const Description = () => {
                     </div>
 
                     {/* Right Section */}
-                    <div className="hidden md:block">
-                        <Image
-                            src="/image3.png"
-                            alt="Hero Image"
-                            width={350}
-                            height={300}
-                            className="rounded-lg"
-                        />
+                    <div className="block">
+                        <h2 className="block md:hidden text-center text-white font-bold text-2xl md:text-3xl py-6">Complete the Exchange</h2>
+                        <div className="relative w-ful max-w-[150px] md:max-w-[350px] mx-auto">
+                            <Image
+                                src="/image3.png"
+                                alt="Hero Image"
+                                width={350}
+                                height={300}
+                                className="rounded-lg"
+                            />
+                        </div>
                     </div>
                 </section>
             </div>
